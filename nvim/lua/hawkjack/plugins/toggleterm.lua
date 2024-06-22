@@ -32,10 +32,7 @@ return {
 			keymap.set("t", "<C-j>", [[<C-\><C-n><C-W>j]], { desc = "toggle terminal" })
 			keymap.set("t", "<C-k>", [[<C-\><C-n><C-W>k]], { desc = "toggle terminal" })
 			keymap.set("t", "<C-l>", [[<C-\><C-n><C-W>l]], { desc = "toggle terminal" })
-<<<<<<< HEAD
-=======
 			keymap.set("n", "<leader>t", "<cmd>ToggleTerm<CR>", { desc = "toggle terminal" })
->>>>>>> 5036d28 (Added some more feature)
 			local Terminal = require("toggleterm.terminal").Terminal
 			local lazygit = Terminal:new({ cmd = "lazygit", hidden = true })
 
