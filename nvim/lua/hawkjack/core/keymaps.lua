@@ -62,6 +62,15 @@ keymap.set("c", "<C-e>", "<End>", opts)
 
 keymap.set("n", "<leader>w", "<cmd>w!<CR>", opts)
 keymap.set("n", "<leader>q", "<cmd>q!<CR>", opts)
+<<<<<<< HEAD
 keymap.set("n", "<leader>h", "nohlsearch", opts)
 keymap.set("n", "<leader>R", "<cmd>RunCode<CR>", opts)
 keymap.set("n", "<leader>C", "<cmd>RunClose<CR>", opts)
+=======
+keymap.set("n", "<leader>R", "<cmd>RunCode<CR>", opts)
+keymap.set("n", "<leader>C", "<cmd>RunClose<CR>", opts)
+
+keymap.set("n", "<C-\\>", ":ToggleTerm<CR>", { noremap = true, silent = true })
+keymap.set("i", "<C-\\>", "<Esc>:ToggleTerm<CR>", { noremap = true, silent = true })
+keymap.set("t", "<C-\\>", "<C-\\><C-n>:ToggleTerm<CR>", { noremap = true, silent = true })
+>>>>>>> 5036d28 (Added some more feature)
