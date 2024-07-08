@@ -28,8 +28,6 @@ keymap.set("i", "<C-y>", "<Plug>(emmet-expand-abbr)", { desc = "emmet" })
 local opts = { noremap = true, silent = true }
 -- Quit and close all buffers
 keymap.set("n", "<C-q>", ":qa!<CR>", opts)
--- Save and quit
-keymap.set("n", "<C-s>", ":wq<CR>", opts)
 
 -- Resize windows
 keymap.set("n", "<C-Up>", ":resize +2<CR>", opts)
@@ -67,7 +65,3 @@ keymap.set("n", "<leader>R", "<cmd>RunCode<CR>", opts)
 keymap.set("n", "<leader>C", "<cmd>RunClose<CR>", opts)
 keymap.set("n", "<leader>R", "<cmd>RunCode<CR>", opts)
 keymap.set("n", "<leader>C", "<cmd>RunClose<CR>", opts)
-
-keymap.set("n", "<C-\\>", ":ToggleTerm<CR>", { noremap = true, silent = true })
-keymap.set("i", "<C-\\>", "<Esc>:ToggleTerm<CR>", { noremap = true, silent = true })
-keymap.set("t", "<C-\\>", "<C-\\><C-n>:ToggleTerm<CR>", { noremap = true, silent = true })
