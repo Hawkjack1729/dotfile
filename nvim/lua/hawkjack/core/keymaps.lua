@@ -60,7 +60,7 @@ keymap.set("c", "<C-e>", "<End>", opts)
 
 keymap.set("n", "<leader>w", "<cmd>w!<CR>", opts)
 keymap.set("n", "<leader>q", "<cmd>q!<CR>", opts)
-keymap.set("n", "<leader>h", "nohlsearch", opts)
+keymap.set("n", "<leader>h", "<cmd>nohlsearch<CR>", opts)
 keymap.set("n", "<leader>R", "<cmd>RunCode<CR>", opts)
 keymap.set("n", "<leader>C", "<cmd>RunClose<CR>", opts)
 keymap.set("n", "<leader>R", "<cmd>RunCode<CR>", opts)
