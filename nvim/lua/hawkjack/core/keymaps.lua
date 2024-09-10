@@ -65,3 +65,8 @@ keymap.set("n", "<leader>R", "<cmd>RunCode<CR>", opts)
 keymap.set("n", "<leader>C", "<cmd>RunClose<CR>", opts)
 keymap.set("n", "<leader>R", "<cmd>RunCode<CR>", opts)
 keymap.set("n", "<leader>C", "<cmd>RunClose<CR>", opts)
+
+keymap.set("n", "<C-k>", ":wincmd k<CR>", opts)
+keymap.set("n", "<C-j>", ":wincmd j<CR>", opts)
+keymap.set("n", "<C-h>", ":wincmd h<CR>", opts)
+keymap.set("n", "<C-l>", ":wincmd l<CR>", opts)

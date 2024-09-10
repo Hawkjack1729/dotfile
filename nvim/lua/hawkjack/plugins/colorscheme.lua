@@ -54,7 +54,7 @@ return {
 		config = function()
 			local catppuccin = require("catppuccin")
 			catppuccin.setup({
-				transparent_background = true,
+				transparent_background = false,
 			})
 			vim.cmd.colorscheme("catppuccin-mocha")
 		end,
